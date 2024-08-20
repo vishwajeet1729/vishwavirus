@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0px !important; /*  this means if any other property changes 
+  margin it ignore that property it means this style has highest priprity*/
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* width
+        the webskit scrollbar modifies the scrollbar style
+*/
+
+::-webkit-scrollbar {
+  width: 4px;
+  height: 80px;
+}
+
+/* Track 
+         it modifies the track f scrollBar
+  */
+::-webkit-scrollbar-track {
+  background: #222a35;
+}
+
+/* Handle 
+          
+          jo box asto ScrolBar Cha
+  */
+::-webkit-scrollbar-thumb {
+  background: #575c66;
+  border-radius: 6px;
+}
+
+/* Handle on hover 
+          jeva hover karu
+  */
+::-webkit-scrollbar-thumb:hover {
+  background: #626970;
+}
+
+
